@@ -1,0 +1,19 @@
+# Where csv files are located
+csv_directory: csv
+
+# ES connection string
+connection: localhost
+
+# Delete the index if exists
+delete_index: True
+
+# Index configuration
+index:
+  name: example_index
+
+  # This is the same json used for field mapping on ES
+  mapping_file: data_mapping.json
+
+  # Additional settings
+  settings:
+    number_of_shards: 5

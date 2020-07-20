@@ -1,0 +1,12 @@
+{
+  "field1": {
+    "type": "byte"
+  },
+  "field2": {
+    "type": "long"
+  },
+  "date_field": {
+    "type": "date",
+    "format": "yyyy-MM-dd"
+  }
+}
